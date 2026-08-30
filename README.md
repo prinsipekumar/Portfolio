@@ -2,7 +2,7 @@
 
 This is my personal **Portfolio** website built with **MERN Stack**. It is designed to showcase my web development skills, projects, and technical expertise. The portfolio includes a fully functional contact form that allows visitors to reach out directly. Messages are stored securely in **MongoDB**. A confirmation email is sent to the user via **Nodemailer**, letting them know their message has been received. This ensures reliable communication and a professional user experience.
 
-**Live Demo**: A live link will be added soon.
+**Live Demo**: [https://portfolio-gilt-kappa-98.vercel.app](https://portfolio-gilt-kappa-98.vercel.app)
 
 ---
 
