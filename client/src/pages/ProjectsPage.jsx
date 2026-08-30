@@ -43,10 +43,17 @@ const ProjectsPage = () => {
                 <a
                   className="ad-btn"
                   href="https://github.com/prinsipekumar/ShyChat"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Source Code
                 </a>
-                <a className="ad-btn btn-demo" href="/">
+                <a
+                  className="ad-btn btn-demo"
+                  href="/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Live Demo
                 </a>
               </div>
@@ -71,12 +78,16 @@ const ProjectsPage = () => {
                 <a
                   className="ad-btn"
                   href="https://github.com/prinsipekumar/myflix"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Source Code
                 </a>
                 <a
                   className="ad-btn btn-demo"
                   href="https://myflix-1-6hxh.onrender.com"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Live Demo
                 </a>
@@ -102,12 +113,16 @@ const ProjectsPage = () => {
                 <a
                   className="ad-btn"
                   href="https://github.com/prinsipekumar/BookLib"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Source Code
                 </a>
                 <a
                   className="ad-btn btn-demo"
                   href="https://booklib-m5en.onrender.com"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Live Demo
                 </a>
@@ -133,12 +148,16 @@ const ProjectsPage = () => {
                 <a
                   className="ad-btn"
                   href="https://github.com/prinsipekumar/Portfolio"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Source Code
                 </a>
                 <a
                   className="ad-btn btn-demo"
                   href="https://prinsipekumar.is-a.dev"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Live Demo
                 </a>
@@ -163,12 +182,16 @@ const ProjectsPage = () => {
                 <a
                   className="ad-btn"
                   href="https://github.com/prinsipekumar/code-editor"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Source Code
                 </a>
                 <a
                   className="ad-btn btn-demo"
                   href="https://prinsipekumar.github.io/code-editor"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Live Demo
                 </a>
