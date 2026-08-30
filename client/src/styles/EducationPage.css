@@ -1,0 +1,130 @@
+.education {
+  margin: 50px 0px;
+  margin-left: 130px;
+  background-color: #f0f4f8;
+}
+
+.education hr {
+  color: #049483;
+  width: 400px;
+  margin: 10px auto;
+}
+
+.education h2 {
+  font-weight: bold;
+  color: #049483;
+  padding-top: 50px;
+}
+
+.education .vertical-timeline-element-title {
+  color: #18181b;
+}
+
+.education .vertical-timeline-element-subtitle {
+  color: #d97706;
+}
+
+.education .verticle-timeline-element-paragraph {
+  color: #52525b;
+}
+
+/* DARK MODE */
+
+#dark .education {
+  background-color: #011b35;
+}
+
+#dark .education hr {
+  color: #14b8a6;
+}
+
+#dark .education h2 {
+  color: #14b8a6;
+}
+
+#dark .education .vertical-timeline-element-title {
+  color: darkblue;
+}
+
+#dark .education .vertical-timeline-element-subtitle {
+  color: darkred;
+}
+
+#dark .education .verticle-timeline-element-paragraph {
+  color: #131313;
+}
+
+#dark .vertical-timeline-element-date {
+  color: #f8fafc;
+}
+
+@media (max-width: 600px) {
+  .education {
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    font-size: small;
+  }
+
+  .education h2 {
+    padding-top: 20px;
+    font-size: 1.3rem;
+  }
+
+  .education .vertical-timeline-element-title {
+    font-size: large;
+  }
+
+  .education .vertical-timeline-element-subtitle {
+    font-size: medium;
+  }
+  .education .vertical-timeline-element-paragraph {
+    font-size: small;
+  }
+
+  .education hr {
+    width: 220px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .education {
+    margin-left: 180px;
+  }
+
+  .education hr {
+    width: 300px;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+  .education {
+    margin-left: 180px;
+    font-size: xx-large;
+  }
+
+  .education h2 {
+    font-size: 50px;
+  }
+
+  .education hr {
+    width: 500px;
+  }
+
+  .education .vertical-timeline-element-title {
+    font-size: 30px;
+  }
+
+  .education .vertical-timeline-element-subtitle {
+    font-size: 20px;
+  }
+
+  .education .verticle-timeline-element-paragraph {
+    font-size: 20px;
+  }
+
+  .education .vertical-timeline-element-date {
+    font-size: 20px;
+  }
+}

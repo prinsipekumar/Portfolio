@@ -1,0 +1,245 @@
+.project {
+  margin: 50px 0px;
+  margin-left: 140px;
+  padding: 0 30px;
+}
+
+.project hr {
+  color: #049483;
+  width: 400px;
+  margin: 10px auto;
+}
+
+.project h2 {
+  font-weight: bold;
+  color: #049483;
+}
+
+#ads {
+  margin: 30px 0px 30px 0px;
+}
+
+#ads .card-notify-badge {
+  position: absolute;
+  left: -10px;
+  top: -20px;
+  background: #f59e0b;
+  text-align: center;
+  border-radius: 30px 30px 30px 30px;
+  color: black;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.project .card img {
+  height: 150px;
+  width: 100%;
+}
+
+.card-detail-bagde {
+  background-color: #746a58;
+  text-align: center;
+  border-radius: 30px 30px 30px 30px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.card-image-overly {
+  font-size: 20px;
+}
+
+.card-image-overly span {
+  display: inline-block;
+  margin-left: 5px;
+  color: white;
+}
+
+.project .card:hover {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+  transition: all 1s ease;
+}
+
+.ad-btn {
+  text-transform: uppercase;
+  width: 150px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 80px;
+  font-size: 16px;
+  line-height: 35px;
+  text-decoration: none;
+  margin: 20px auto 20px auto;
+  overflow: hidden;
+  position: relative;
+}
+
+a.btn-demo {
+  background-color: red;
+}
+
+.ad-btn:hover {
+  background-color: white;
+  color: blueviolet;
+  background-color: transparent;
+  border: 2px solid blueviolet;
+  transition: all 0.5s ease;
+  box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+}
+
+a.btn-demo:hover {
+  color: red;
+  border: 2px solid red;
+}
+
+/* DARK MODE */
+
+#dark .project hr,
+h2 {
+  color: #14b8a6;
+}
+
+#dark #ads .card-notify-badge {
+  background: #facc15;
+  color: #0b192c;
+}
+
+#dark .project .card {
+  background-color: #1a2a40;
+  color: #f8fafc;
+}
+
+#dark .card-detail-bagde {
+  background-color: #374151;
+  color: #f8fafc;
+}
+
+#dark .card-image-overly span {
+  color: #f8fafc;
+}
+
+#dark .project .card:hover {
+  background-color: #162a3a;
+  box-shadow: 0px 0px 12px #14b8a6;
+}
+
+#dark .ad-btn {
+  background-color: #7c3aed;
+  color: #f8fafc;
+}
+
+#dark a.btn-demo {
+  background-color: #ef4444;
+  color: #f8fafc;
+}
+
+#dark .ad-btn:hover {
+  background-color: transparent;
+  color: #7c3aed;
+  border: 2px solid #7c3aed;
+  box-shadow: 0px 0px 12px #7c3aed;
+}
+
+#dark a.btn-demo:hover {
+  color: #ef4444;
+  border: 2px solid #ef4444;
+}
+
+@media (max-width: 600px) {
+  .project {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    font-size: small;
+  }
+
+  .project h2 {
+    font-size: 1.3rem;
+  }
+
+  .project hr {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+
+  .project .card {
+    margin-bottom: 30px;
+  }
+
+  .card-image-overly span {
+    margin-left: 2px;
+    margin-right: 1px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .project hr {
+    width: 280px;
+  }
+
+  .project p {
+    margin-right: 90px;
+  }
+
+  .project .card {
+    margin-bottom: 30px;
+  }
+
+  #ads {
+    margin-right: 85px;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+  .project {
+    font-size: 30px;
+  }
+
+  .project h2 {
+    font-size: 50px;
+  }
+
+  .project hr {
+    width: 500px;
+  }
+
+  .project p {
+    margin-right: 90px;
+  }
+
+  .project .card {
+    margin-bottom: 30px;
+  }
+
+  #ads {
+    margin-right: 85px;
+  }
+
+  .project .card img {
+    height: 350px;
+    width: 100%;
+  }
+
+  .card-image-overly span {
+    font-size: 25px;
+  }
+
+  #ads .card-notify-badge {
+    font-size: 28px;
+  }
+
+  .ad-btn {
+    width: 250px;
+    height: 70px;
+    font-size: 30px;
+    padding-top: 15px;
+  }
+
+  .project h5 {
+    font-size: 45px;
+  }
+}
