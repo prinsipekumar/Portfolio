@@ -37,18 +37,21 @@ const ContactPage = () => {
     if (name == "" || email == "" || phone == "" || !email.includes("@")) {
       toast.error("Please Fill Out Required Fields!!");
     } else {
-      const response = await fetch("http://localhost:5000/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
+      const response = await fetch(
+        "https://portfolio-kfti.onrender.com/contact",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            name,
+            email,
+            phone,
+            message,
+          }),
         },
-        body: JSON.stringify({
-          name,
-          email,
-          phone,
-          message,
-        }),
-      });
+      );
 
       const data = await response.json();
       console.log(data);
