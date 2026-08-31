@@ -38,7 +38,7 @@ const ContactPage = () => {
       toast.error("Please Fill Out Required Fields!!");
     } else {
       const response = await fetch(
-        "https://portfolio-kfti.onrender.com/contact",
+        "https://portfolio-zg5e.vercel.app/contact",
         {
           method: "POST",
           headers: {
