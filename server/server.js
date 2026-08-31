@@ -12,17 +12,19 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: [process.env.CLIENT_URL, "https://portfolio-zg5e.vercel.app"],
+    origin: process.env.CLIENT_URL,
     credentials: true,
   }),
 );
+
+app.get("/", (req, res) => {
+  res.send("Backend running");
+});
 
 // Router Mounting
 app.use("/", clientsRouter);
 
 const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, () => {
-  connectToDB();
-  console.log(`Server is running on http://localhost:${PORT}`);
-});
+connectToDB();
+export default app;

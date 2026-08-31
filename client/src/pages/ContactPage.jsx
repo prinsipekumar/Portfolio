@@ -56,7 +56,7 @@ const ContactPage = () => {
       const data = await response.json();
       console.log(data);
 
-      if (response.status == 201) {
+      if (response.status === 201) {
         toast.success("Message Sent Successfully!!");
 
         setInputvalue({
