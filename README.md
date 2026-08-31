@@ -13,7 +13,7 @@ This is my personal **Portfolio** website built with **MERN Stack**. It is desig
 - Smooth UI effects (typewriter animations, fade transitions)
 - Project showcase with **source code** and **live demo**
 - Integrated contact form for professional inquiries using **MongoDB** as a database and **Nodemailer** to send confirmation emails
-- Server deployed on **Render** and Client on **Vercel**
+- Fully deployed on **Vercel**
 
 ---
 
@@ -34,8 +34,7 @@ This is my personal **Portfolio** website built with **MERN Stack**. It is desig
 
 ### Deployment
 
-- Render (Server)
-- Vercel (Client)
+- Vercel
 
 ### Email Service
 
