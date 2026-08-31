@@ -74,7 +74,6 @@ router.post("/contact", async (req, res) => {
             .json({ status: 201, message: "Email Sent Successfully" });
         }
       });
-      res.status(201).json({ status: 201, storeData });
     }
   } catch (error) {
     res.status(401).json({ status: 401, error: "All Input Required" });
