@@ -12,6 +12,8 @@ import { useState } from "react";
 import toast from "react-hot-toast";
 
 const ContactPage = () => {
+  const [loading, setLoading] = useState(false);
+
   const [inputvalue, setInputvalue] = useState({
     name: "",
     email: "",
@@ -31,12 +33,16 @@ const ContactPage = () => {
 
   const sentClientdata = async (e) => {
     e.preventDefault();
+    setLoading(true);
 
     const { name, email, phone, message } = inputvalue;
 
     if (name == "" || email == "" || phone == "" || !email.includes("@")) {
       toast.error("Please Fill Out Required Fields!!");
-    } else {
+      setLoading(false);
+      return;
+    }
+    try {
       const response = await fetch(
         "https://portfolio-zg5e.vercel.app/contact",
         {
@@ -66,8 +72,14 @@ const ContactPage = () => {
           phone: "",
           message: "",
         });
+      } else {
+        toast.error("Something went wrong!");
       }
+    } catch (error) {
+      console.log(error);
+      toast.error("Server error, please try again.");
     }
+    setLoading(false);
   };
 
   return (
@@ -223,8 +235,9 @@ const ContactPage = () => {
                         className="button"
                         type="submit"
                         onClick={sentClientdata}
+                        disabled={loading}
                       >
-                        SEND MESSAGE
+                        {loading ? "Sending..." : "SEND MESSAGE"}
                       </button>
                     </div>
                   </form>
