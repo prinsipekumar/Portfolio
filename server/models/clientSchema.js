@@ -22,7 +22,7 @@ const clientSchema = mongoose.Schema({
 // Save Message
 clientSchema.methods.Messagesave = async function (message) {
   try {
-    this.messages = this.messages.concat({ message });
+    this.messages.push(message);
     await this.save();
     return message;
   } catch (error) {
