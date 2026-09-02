@@ -85,7 +85,7 @@ const ProjectsPage = () => {
                 </a>
                 <a
                   className="ad-btn btn-demo"
-                  href="https://myflix-1-6hxh.onrender.com"
+                  href="https://myflix-1-o0i4.onrender.com"
                   target="_blank"
                   rel="noreferrer"
                 >
