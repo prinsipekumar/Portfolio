@@ -50,7 +50,7 @@ const ProjectsPage = () => {
                 </a>
                 <a
                   className="ad-btn btn-demo"
-                  href="/"
+                  href="https://shychat.onrender.com"
                   target="_blank"
                   rel="noreferrer"
                 >

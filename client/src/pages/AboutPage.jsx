@@ -23,9 +23,10 @@ const AboutPage = () => {
               My skill set spans{" "}
               <strong>
                 HTML, CSS, JavaScript, React, Express, Node.js, MongoDB, SQL,
-                Postman, Git/GitHub, REST APIs, WebSockets, Zustand, Tailwind
-                CSS, Bootstrap, JWT, bcrypt, Jasmine, AWS, Cloudinary and
-                deployment platforms like Render, Sevalla and Vercel
+                Postman, Git/GitHub, REST APIs, WebSockets, Zustand, Resend,
+                Arcjet, Tailwind CSS, Bootstrap, JWT, bcrypt, Jasmine, AWS,
+                Cloudinary and deployment platforms like Render, Sevalla and
+                Vercel
               </strong>
               . This diverse toolkit allows me to design responsive interfaces,
               manage state efficiently, implement robust authentication systems,

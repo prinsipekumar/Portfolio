@@ -19,6 +19,8 @@ import {
   SiVercel,
   SiRender,
   SiMongoose,
+  SiSocketdotio,
+  SiResend,
 } from "react-icons/si";
 import { DiMysql } from "react-icons/di";
 import { RiTailwindCssFill } from "react-icons/ri";
@@ -137,7 +139,12 @@ export const TechstackList = [
   },
   {
     _id: 23,
-    name: "Photoshop",
-    icon: TbBrandAdobePhotoshop,
+    name: "Socket IO",
+    icon: SiSocketdotio,
+  },
+  {
+    _id: 24,
+    name: "Resend",
+    icon: SiResend,
   },
 ];
