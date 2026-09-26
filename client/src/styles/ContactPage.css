@@ -1,0 +1,274 @@
+.contact {
+  margin-left: 130px;
+  margin-bottom: 60px;
+  padding-top: 50px;
+}
+
+.card0 {
+  box-shadow: 0px 4px 8px 0px #757575;
+  border-radius: 0px;
+}
+
+.card2 {
+  margin: 40px 40px;
+}
+
+.card1 .image {
+  padding: 30px;
+  margin-top: 30px;
+  height: 100%;
+  width: 100%;
+}
+
+.border-line {
+  border-right: 1px solid #e0e0e0;
+}
+
+.line {
+  height: 1px;
+  width: 45%;
+  background-color: #e0e0e0;
+  margin-top: 10px;
+}
+
+.or {
+  display: flex;
+  width: 10%;
+  font-weight: bold;
+}
+
+::placeholder {
+  color: #52525b;
+  opacity: 1;
+  font-weight: 300;
+}
+
+input,
+textarea {
+  padding: 10px 12px;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  margin-top: 5px;
+  width: 100%;
+  color: #049483;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+input:focus,
+textarea:focus {
+  box-shadow: none !important;
+  outline: 1px solid #049483 !important;
+  outline-width: 0px;
+}
+
+.button:focus {
+  box-shadow: none;
+  outline-width: 0px;
+}
+
+.button {
+  background-color: blueviolet;
+  color: white;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.button:hover {
+  background-color: white;
+  color: blueviolet;
+  border: 1px solid blueviolet;
+  transition: all 0.5s ease;
+}
+
+/* DARK MODE */
+
+#dark .card0 {
+  box-shadow: 0px 4px 8px 0px rgba(20, 20, 20, 0.6);
+  background-color: #1a2a40;
+}
+
+#dark .card2 {
+  background-color: #1a2a40;
+  color: whitesmoke;
+}
+
+#dark .border-line {
+  border-right: 1px solid #f8fafc78;
+}
+
+#dark ::placeholder {
+  color: #94a3b8;
+}
+
+#dark input,
+#dark textarea {
+  border: 1px solid #334155;
+  background-color: #1a2a40;
+  color: #f8fafc;
+}
+
+#dark input:focus,
+#dark textarea:focus {
+  box-shadow: 0 0 6px #14b8a6;
+}
+
+#dark .button {
+  background-color: #7c3aed;
+  color: #f8fafc;
+}
+
+#dark .button:hover {
+  background-color: transparent;
+  color: #7c3aed;
+  border: 2px solid #7c3aed;
+  box-shadow: 0 0 10px #7c3aed;
+}
+
+#dark a.btn-demo {
+  background-color: #ef4444;
+  color: #f8fafc;
+}
+
+#dark a.btn-demo:hover {
+  color: #ef4444;
+  border: 2px solid #ef4444;
+  background-color: transparent;
+  box-shadow: 0 0 10px #ef4444;
+}
+
+#dark .contact .linkedin,
+.facebook {
+  fill: #025fd9;
+}
+
+#dark .contact .github {
+  fill: white;
+}
+#dark .contact .twitter {
+  fill: white;
+}
+
+#dark .contact .instagram {
+  fill: #fc0356;
+}
+
+#dark .contact .telegram {
+  fill: #027dba;
+}
+
+@media (max-width: 600px) {
+  .contact {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    font-size: small;
+  }
+
+  .contact .card2 {
+    margin: 0;
+  }
+
+  .contact h6 {
+    font-size: 0.7rem;
+  }
+
+  .contact svg {
+    width: 1.2em;
+    height: 2em;
+  }
+
+  .contact .card2 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .or {
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+  }
+
+  input,
+  textarea {
+    font-size: small;
+    padding: 5px 6px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .contact {
+    margin-left: 190px;
+  }
+
+  .contact h6 {
+    font-size: 1rem;
+    text-wrap: nowrap;
+  }
+
+  .contact .card2 h6 {
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact svg {
+    width: 15px;
+    height: 27px;
+  }
+
+  .line {
+    width: 40%;
+  }
+
+  .or {
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+  }
+
+  input,
+  textarea {
+    font-size: 12px;
+    padding: 5px 6px;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+  .contact {
+    margin-left: 190px;
+  }
+  .contact h6 {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .contact svg {
+    width: 1.5em;
+    height: 2em;
+  }
+
+  .line {
+    margin-top: 20px;
+  }
+
+  .or {
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+  }
+
+  input,
+  textarea {
+    font-size: 20px;
+    padding: 5px 6px;
+  }
+
+  .button {
+    font-size: 25px;
+  }
+}

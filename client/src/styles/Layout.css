@@ -1,0 +1,65 @@
+.sidebar-section {
+  display: flex;
+  background-color: #1a2a40;
+}
+
+.sidebar {
+  height: 100vh;
+  background-color: #0b192c;
+  width: 90px;
+  position: fixed;
+}
+
+.sidebar-toggle {
+  width: 200px;
+}
+
+.sidebar-toggle-icons {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  cursor: pointer;
+  margin-right: 2px;
+}
+
+.sidebar-toggle-icons p svg {
+  fill: #64748b;
+  color: white;
+  margin-top: 2px;
+}
+
+/* DARK MODE */
+
+#dark .sidebar-section {
+  background-color: #0b192c;
+}
+
+#dark .sidebar {
+  background-color: #0b192c;
+}
+
+#dark .sidebar-toggle {
+  background-color: #162a3a;
+}
+
+#dark .sidebar-toggle-icons p svg {
+  fill: #64748b;
+  color: #e2e8f0;
+}
+
+@media (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+
+  #dark .sidebar-section {
+    background-color: #0b192c;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+  .sidebar-toggle-icons svg {
+    width: 60px;
+    height: 50px;
+  }
+}
