@@ -43,18 +43,21 @@ const ContactPage = () => {
       return;
     }
     try {
-      const response = await fetch("https://portfolio-backend.vercel.app", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
+      const response = await fetch(
+        "https://portfolio-backend-theta-beige.vercel.app",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            name,
+            email,
+            phone,
+            message,
+          }),
         },
-        body: JSON.stringify({
-          name,
-          email,
-          phone,
-          message,
-        }),
-      });
+      );
 
       const data = await response.json();
       console.log(data);
