@@ -24,7 +24,7 @@ import {
 } from "react-icons/si";
 import { DiMysql } from "react-icons/di";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { TbApi, TbBrandAdobePhotoshop } from "react-icons/tb";
+import { TbApi } from "react-icons/tb";
 
 export const TechstackList = [
   {

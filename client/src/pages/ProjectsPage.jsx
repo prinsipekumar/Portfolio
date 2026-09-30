@@ -4,6 +4,7 @@ import myflix from "../assets/images/myflix.png";
 import BookLib from "../assets/images/BookLib.png";
 import Portfolio from "../assets/images/Portfolio.png";
 import codeditor from "../assets/images/code-editor.png";
+import DigiDiary from "../assets/images/DigiDiary.png";
 import { Zoom } from "react-awesome-reveal";
 
 const ProjectsPage = () => {
@@ -121,6 +122,41 @@ const ProjectsPage = () => {
                 <a
                   className="ad-btn btn-demo"
                   href="https://booklib-m5en.onrender.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-12 col-xl-6 col-xxl-4">
+            <div className="card rounded">
+              <div className="card-image">
+                <span className="card-notify-badge">Full-Stack</span>
+                <img src={DigiDiary} alt="DigiDiary" />
+              </div>
+              <div className="card-image-overly m-auto mt-3">
+                <span className="card-detail-bagde">Node</span>
+                <span className="card-detail-bagde">React</span>
+                <span className="card-detail-bagde">Express</span>
+                <span className="card-detail-bagde">MongoDB</span>
+              </div>
+              <div className="card-body text-center">
+                <div className="ad-title m-auto">
+                  <h5 className="text-uppercase">DigiDiary</h5>
+                </div>
+                <a
+                  className="ad-btn"
+                  href="https://github.com/prinsipekumar/DigiDiary"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Source Code
+                </a>
+                <a
+                  className="ad-btn btn-demo"
+                  href="https://digidiary-iia5.onrender.com"
                   target="_blank"
                   rel="noreferrer"
                 >

@@ -64,7 +64,7 @@ const WorkexperiencePage = () => {
                 Built multiple full stack and frontend projects including{" "}
                 <strong>
                   Netflix clone, Book Library app, Realtime chatting app,
-                  Portfolio and Code Editor
+                  Portfolio, Digital Diary and Code Editor
                 </strong>{" "}
                 website with <strong>MERN stack</strong>
                 <br />
