@@ -44,7 +44,7 @@ const ContactPage = () => {
     }
     try {
       const response = await fetch(
-        "https://portfolio-backend-theta-beige.vercel.app",
+        "https://portfolio-backend-theta-beige.vercel.app/contact",
         {
           method: "POST",
           headers: {
