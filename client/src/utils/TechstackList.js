@@ -8,6 +8,7 @@ import {
   FaJava,
   FaGithub,
   FaAws,
+  FaDocker,
 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import {
@@ -21,10 +22,13 @@ import {
   SiMongoose,
   SiSocketdotio,
   SiResend,
+  SiMysql,
+  SiTypescript,
+  SiAndroidstudio,
 } from "react-icons/si";
 import { DiMysql } from "react-icons/di";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { TbApi } from "react-icons/tb";
+import { TbApi, TbBrandNextjs, TbBrandReactNative } from "react-icons/tb";
 
 export const TechstackList = [
   {
@@ -146,5 +150,35 @@ export const TechstackList = [
     _id: 24,
     name: "Resend",
     icon: SiResend,
+  },
+  {
+    _id: 25,
+    name: "TypeScript",
+    icon: SiTypescript,
+  },
+  {
+    _id: 26,
+    name: "Next.js",
+    icon: TbBrandNextjs,
+  },
+  {
+    _id: 27,
+    name: "MySQL",
+    icon: SiMysql,
+  },
+  {
+    _id: 28,
+    name: "Android Studio",
+    icon: SiAndroidstudio,
+  },
+  {
+    _id: 29,
+    name: "Docker",
+    icon: FaDocker,
+  },
+  {
+    _id: 30,
+    name: "React Native",
+    icon: TbBrandReactNative,
   },
 ];

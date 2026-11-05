@@ -14,19 +14,20 @@ const AboutPage = () => {
               <h1 className="text-uppercase">About me</h1>
             </Zoom>
             <p>
-              I'm Prince, a <strong>Full-Stack Developer</strong> who thrives on
-              building modern, scalable, and secure web applications. With
-              expertise across both frontend and backend, I enjoy turning
-              complex ideas into seamless digital experiences.
+              I'm Prince, a <strong>Developer</strong> who thrives on building
+              modern, scalable, and secure applications. With expertise across
+              both frontend and backend, I enjoy turning complex ideas into
+              seamless digital experiences.
             </p>
             <p>
               My skill set spans{" "}
               <strong>
-                HTML, CSS, JavaScript, React, Express, Node.js, MongoDB, SQL,
-                Postman, Git/GitHub, REST APIs, WebSockets, Zustand, Resend,
-                Arcjet, Tailwind CSS, Bootstrap, JWT, bcrypt, Jasmine, AWS,
-                Cloudinary and deployment platforms like Render, Sevalla and
-                Vercel
+                HTML, CSS, JavaScript, TypeScript, React Js, React Native,
+                Express, Next.js, Node.js, MongoDB, SQL, MySQL, Postman,
+                Git/GitHub, REST APIs, WebSockets, Zustand, Resend, Arcjet,
+                Tailwind CSS, Bootstrap, JWT, bcrypt, Docker, Android Studio,
+                Jasmine, AWS, Cloudinary and deployment platforms like Render,
+                Sevalla and Vercel
               </strong>
               . This diverse toolkit allows me to design responsive interfaces,
               manage state efficiently, implement robust authentication systems,

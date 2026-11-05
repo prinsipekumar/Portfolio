@@ -5,6 +5,8 @@ import BookLib from "../assets/images/BookLib.png";
 import Portfolio from "../assets/images/Portfolio.png";
 import codeditor from "../assets/images/code-editor.png";
 import DigiDiary from "../assets/images/DigiDiary.png";
+import phdilutionlab from "../assets/images/ph-dilution-lab.png";
+import SyncBoard from "../assets/images/SyncBoard.png";
 import { Zoom } from "react-awesome-reveal";
 
 const ProjectsPage = () => {
@@ -226,6 +228,74 @@ const ProjectsPage = () => {
                 <a
                   className="ad-btn btn-demo"
                   href="https://prinsipekumar.github.io/code-editor"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-12 col-xl-6 col-xxl-4">
+            <div className="card rounded">
+              <div className="card-image">
+                <span className="card-notify-badge">Monolithic</span>
+                <img src={phdilutionlab} alt="code-editor" />
+              </div>
+              <div className="card-image-overly m-auto mt-3">
+                <span className="card-detail-bagde">HTML5</span>
+                <span className="card-detail-bagde">CSS3</span>
+                <span className="card-detail-bagde">Vanilla JS</span>
+              </div>
+              <div className="card-body text-center">
+                <div className="ad-title m-auto">
+                  <h5 className="text-uppercase">ph-dilution-lab</h5>
+                </div>
+                <a
+                  className="ad-btn"
+                  href="https://github.com/prinsipekumar/ph-dilution-lab"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Source Code
+                </a>
+                <a
+                  className="ad-btn btn-demo"
+                  href="https://prinsipekumar.github.io/ph-dilution-lab"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-12 col-xl-6 col-xxl-4">
+            <div className="card rounded">
+              <div className="card-image">
+                <span className="card-notify-badge">Frontend</span>
+                <img src={SyncBoard} alt="code-editor" />
+              </div>
+              <div className="card-image-overly m-auto mt-3">
+                <span className="card-detail-bagde">React 19</span>
+                <span className="card-detail-bagde">Vite</span>
+                <span className="card-detail-bagde">Tailwind CSS</span>
+              </div>
+              <div className="card-body text-center">
+                <div className="ad-title m-auto">
+                  <h5 className="text-uppercase">SyncBoard</h5>
+                </div>
+                <a
+                  className="ad-btn"
+                  href="https://github.com/prinsipekumar/SyncBoard"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Source Code
+                </a>
+                <a
+                  className="ad-btn btn-demo"
+                  href="https://sync-board-lac.vercel.app"
                   target="_blank"
                   rel="noreferrer"
                 >

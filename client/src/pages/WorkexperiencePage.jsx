@@ -36,8 +36,8 @@ const WorkexperiencePage = () => {
               <p className="verticle-timeline-element-paragraph">
                 Built multiple frontend projects including{" "}
                 <strong>
-                  Food Server Shop, Profile Cards, Rock Paper Scissors Game and
-                  Code Editor
+                  Food Server Shop, Profile Cards, Rock Paper Scissors Game, ph
+                  dilution lab, Sync Board and Code Editor
                 </strong>{" "}
                 website
                 <br />
